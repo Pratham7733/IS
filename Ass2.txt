@@ -2,13 +2,13 @@
 
 #include<stdio.h>
 #include<string.h>
-void main()
+int main()
 {
     int i,j,k,l;
     char a[20],c[20],d[20];
     printf("\n\t\t RAIL FENCE TECHNIQUE");
     printf("\n\nEnter the input string : ");
-    gets(a);
+    fgets(a, sizeof(a), stdin);
     l=strlen(a);
 
     for(i=0,j=0;i<l;i++)
